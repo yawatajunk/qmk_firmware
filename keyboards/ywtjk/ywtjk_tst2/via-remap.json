@@ -1,0 +1,32 @@
+{
+  "name": "ywtjk_test2",
+  "vendorId": "0x6666",
+  "productId": "0x0002",
+  "lighting": "none",
+  "matrix": {
+    "rows": 2,
+    "cols": 2
+  },
+  "layouts": {
+    "keymap": [
+      [
+        "0,0",
+        "0,1",
+        {
+          "x": 2.25,
+          "f": 4,
+          "w": 14,
+          "h": 5,
+          "d": true
+        }
+      ],
+      [
+        {
+          "f": 3
+        },
+        "1,0",
+        "1,1"
+      ]
+    ]
+  }
+}
