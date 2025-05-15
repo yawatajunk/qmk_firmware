@@ -1,5 +1,5 @@
 {
-    "manufacturer": "yawatajunk",
+    "manufacturer": "ywtjk",
     "keyboard_name": "kbd62a",
     "maintainer": "yawatajunk",
     "bootloader": "rp2040",
@@ -39,7 +39,7 @@
         "vid": "0x6666"
     },
     "rgblight": {
-        "led_count": 12,
+        "led_count": 2,
         "animations": {
             "breathing": true,
             "rainbow_mood": true,
@@ -56,13 +56,13 @@
         "max_brightness": 127,
         "split": true,
         "split_count": [
-            6,
-            6
+            1,
+            1
         ]
     },
     "ws2812": {
         "driver": "vendor",
-        "pin": "GP27"
+        "pin": "GP16"
     },
     "split": {
         "enabled": true,
