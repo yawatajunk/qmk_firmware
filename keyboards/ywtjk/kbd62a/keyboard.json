@@ -11,6 +11,7 @@
         "extrakey": true,
         "mousekey": true,
         "rgblight": true,
+        "oled": true,
         "nkro": false
     },
     "matrix_pins": {
@@ -63,6 +64,10 @@
     "ws2812": {
         "driver": "vendor",
         "pin": "GP16"
+    },
+    "oled": {
+        "driver": "SSD1304",
+        "interface": "i2c"
     },
     "split": {
         "enabled": true,
